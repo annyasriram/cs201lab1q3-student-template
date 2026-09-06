@@ -115,7 +115,7 @@ public class DoublyLinkedList<E> {
     }
 
     public void group(){
-        if (isEmpty()) {
+        if (isEmpty()){
             return;
         }
 
@@ -129,7 +129,7 @@ public class DoublyLinkedList<E> {
                 addFirst(null);
             }
 
-            current = next;
+            current = next; 
         }
     }
 }
